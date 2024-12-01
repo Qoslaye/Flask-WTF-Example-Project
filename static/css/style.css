@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #4CAF50;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form input, .form textarea, .form button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #45a049;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1, p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Light Blue Theme */
+.home-page, .success-page {
+    background-color: #e3f2fd; /* Light blue */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1 {
+    color: #0d47a1; /* Dark blue */
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #01579b; /* Medium blue */
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #1e88e5; /* Blue button */
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+   
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Horizontally centers the button */
+    align-items: center; /* Vertically centers the button */
+    height: 100%; /* Ensures the container takes full height */
+}
+
+
+.button:hover {
+    background-color: #1565c0; /* Darker blue on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    p {
+        font-size: 16px;
+    }
+
+    .button {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+}

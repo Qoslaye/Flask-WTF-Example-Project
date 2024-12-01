@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body class="home-page">
+    <header class="header">
+        <h1>Welcome to Our Contact Form App</h1>
+        
+    </header>
+    <p>Need to get in touch? Use our contact form to send us a message!</p>
+    <main class="button-container">
+        
+        <a href="{{ url_for('contact') }}" class="button">Go to Contact Form</a>
+    </main>
+</body>
+</html>
